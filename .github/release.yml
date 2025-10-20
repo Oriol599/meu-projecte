@@ -1,0 +1,21 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+    authors:
+      - octocat
+  categories:
+    - Title: Breaking Changes
+      labels:
+        - server-major
+        - breaking-cange
+    - title: new features
+      labels:
+        - server-minor
+        - new-features
+    - title: bug fixes
+      labels:
+          - bug-fix
+      
